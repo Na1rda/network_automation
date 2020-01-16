@@ -52,7 +52,7 @@ else:
 
 print('-------------------------------------------------\n')
 
-answer2 = raw_input('List subnets ?\n\nJust print: p\nPrint&Save: ps\nJust save: s\nAbort: a\n\nYour choice:   ')
+answer2 = raw_input('Lista subnets ?\n\nJust print: p\nPrint&Save: ps\nJust save: s\nAbort: a\n\nYour choice:   ')
 
 if answer2 == p:
         newcidr = raw_input('introduceti noul CIDR: ')
